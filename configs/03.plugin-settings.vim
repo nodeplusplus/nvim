@@ -13,7 +13,9 @@ let NERDTreeMapOpenInTab='<ENTER>'
 syntax enable
 set background=dark
 colorscheme dracula
+set guifont=DroidSansMono_Nerd_Font:h11
 let g:airline_theme='dracula'
+let g:airline_powerline_fonts = 1
 
 "CtrlP
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . -co --exclude-standard', 'find %s -type f']
