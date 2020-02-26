@@ -6,5 +6,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'kien/ctrlp.vim'
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 Plug 'tpope/vim-fugitive'
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
