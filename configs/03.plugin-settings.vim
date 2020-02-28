@@ -7,7 +7,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 map <C-b> :NERDTreeToggle<CR>
 let NERDTreeDirArrows = 1
 let NERDTreeMinimalUI = 1
-let NERDTreeMapOpenInTab='<ENTER>'
 
 " Theme
 syntax enable
@@ -21,3 +20,6 @@ let g:airline_powerline_fonts = 1
 " CtrlP
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . -co --exclude-standard', 'find %s -type f']
 
+" Prettier
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,,*.yml PrettierAsync

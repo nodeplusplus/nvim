@@ -36,3 +36,6 @@ function! s:markdown_mode_setup()
   set formatoptions+=t
   CocDisable
 endfunction
+
+map <Enter> o<ESC>
+map <S-Enter> O<ESC>
