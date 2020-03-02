@@ -4,6 +4,20 @@ filetype plugin indent on
 
 syntax on
 
+set autoread
+set autowrite
+
+set autoindent
+set si
+
+set nobackup
+set nowb
+set noswapfile
+set backupdir=~/tmp,/tmp
+set backupcopy=yes
+set backupskip=/tmp/*,$TMPDIR/*,$TMP/*,$TEMP/*
+set directory=/tmp
+
 set encoding=UTF-8
 set number
 set relativenumber
