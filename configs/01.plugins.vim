@@ -11,5 +11,6 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'tpope/vim-commentary'
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
+Plug 'leafgarland/typescript-vim'
 
 call plug#end()
