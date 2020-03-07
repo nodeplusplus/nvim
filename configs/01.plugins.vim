@@ -12,5 +12,9 @@ Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'tpope/vim-commentary'
 Plug 'leafgarland/typescript-vim'
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-tsserver'
+Plug 'neoclide/coc-prettier'
+Plug 'neoclide/coc-yaml'
+Plug 'neoclide/coc-json'
 
 call plug#end()
