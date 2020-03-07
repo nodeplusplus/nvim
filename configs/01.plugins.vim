@@ -12,9 +12,5 @@ Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'tpope/vim-commentary'
 Plug 'leafgarland/typescript-vim'
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
-Plug 'neoclide/coc-tsserver'
-Plug 'neoclide/coc-yaml'
-Plug 'neoclide/coc-json'
-Plug 'neoclide/coc-prettier'
 
 call plug#end()
