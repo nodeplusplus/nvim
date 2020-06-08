@@ -11,10 +11,10 @@ let NERDTreeMinimalUI = 1
 " Theme
 syntax enable
 set background=dark
-colorscheme dracula
+colorscheme gruvbox
 set guifont=DroidSansMono_Nerd_Font:h11
 "set guifont=DroidSansMono\ Nerd\ Font\ 11
-let g:airline_theme='dracula'
+let g:airline_theme='gruvbox'
 let g:airline_powerline_fonts = 1
 
 " CtrlP
