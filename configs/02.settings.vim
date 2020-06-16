@@ -53,3 +53,4 @@ endfunction
 
 map <Enter> o<ESC>
 map <S-Enter> O<ESC>
+nnoremap <leader>d "_d
