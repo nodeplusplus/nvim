@@ -14,5 +14,5 @@ Steps:
 0. Initialize NeoVim
 1. Install Python dependencies
     ```
-    pip3 install pynvim jedi
+    pip3 install pynvim jedi yapf
     ```

@@ -1,3 +1,13 @@
+" deoplete
+let g:deoplete#enable_at_startup = 1
+inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
+
+" Neoformat
+au BufWrite *.py,*.csv,*.json,*.md,*.yaml,*.ipynb :Neoformat
+let g:neoformat_basic_format_align = 1
+let g:neoformat_basic_format_retab = 1
+let g:neoformat_basic_format_trim = 1
+
 " NERDTree
 " How can I open a NERDTree automatically when vim starts up if no files were specified?
 autocmd StdinReadPre * let s:std_in=1
@@ -7,9 +17,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 map <C-b> :NERDTreeToggle<CR>
 let NERDTreeDirArrows = 1
 let NERDTreeMinimalUI = 1
-
-" deoplete
-let g:deoplete#enable_at_startup = 1
 
 " Theme
 syntax enable
@@ -22,7 +29,3 @@ let g:airline_powerline_fonts = 1
 
 " CtrlP
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . -co --exclude-standard', 'find %s -type f']
-
-" Prettier
-let g:prettier#autoformat = 0
-autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,,*.yml PrettierAsync
