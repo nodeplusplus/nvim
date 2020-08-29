@@ -8,6 +8,9 @@ map <C-b> :NERDTreeToggle<CR>
 let NERDTreeDirArrows = 1
 let NERDTreeMinimalUI = 1
 
+" deoplete
+let g:deoplete#enable_at_startup = 1
+
 " Theme
 syntax enable
 set background=dark
