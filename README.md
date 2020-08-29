@@ -1,2 +1,10 @@
 # nodeplusplus/nvim
-> Nodeplusplus NeoVIM setup for beginner
+> NeoVim configurations
+
+## Javascript
+
+Branch: `javascript`
+
+## Python
+
+Branch: `python`
